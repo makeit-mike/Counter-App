@@ -7,10 +7,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <label
-          className="itemsInCart"
-          // className="badge badge-primary m-2 "
-        >
+        <label className="itemsInCart" style={{ paddingTop: 2 + "px" }}>
           {this.formatCount()}
         </label>
 
